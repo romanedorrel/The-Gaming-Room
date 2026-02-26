@@ -103,9 +103,6 @@ Composition is used to represent the relationships between games, teams, and pla
 
 Using your experience to evaluate the characteristics, advantages, and weaknesses of each operating platform (Linux, Mac, and Windows) as well as mobile devices, consider the requirements outlined below and articulate your findings for each. As you complete the table, keep in mind your client’s requirements and look at the situation holistically, as it all has to work together.
 
-## Evaluation
-
----
 
 ### Server Side
 
@@ -210,6 +207,7 @@ Data transmitted between user devices and the Linux-based server will be encrypt
 On the server side, Linux enforces security through user and group permission models, file access controls, and process isolation mechanisms (The Linux Kernel Documentation, n.d.). These protections prevent unauthorized access to system resources and protect application processes from interference. Role-based access control further limits administrative privileges to authorized users.
 For data at rest, Amazon RDS and Amazon S3 support encryption using AWS-managed keys, protecting structured game data and stored image assets (AWS, 2023b; AWS, 2023c). Automated backups and multi-zone replication improve resilience against data loss. Together, encrypted communication, Linux system protections, and AWS-managed security services ensure confidentiality, integrity, and availability across the distributed platform.
 
+---
 
 ## References 
 
